@@ -1,0 +1,89 @@
+.modal-overlay {
+   display: none;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.8);
+   z-index: 11;
+   font-size: 1.4rem;
+}
+
+.modal-content {
+   background-color: #000;
+   color: #fff;
+   border: 1px solid #868686;
+   padding: 2rem;
+}
+
+.modal-header h2 {
+   margin: 0;
+   margin-bottom: 2rem;
+   font-size: 80%;
+   text-transform: uppercase;
+   font-weight: normal;
+}
+
+
+.modal-body p {
+   margin-bottom: 4rem;
+
+}
+
+.closeBtn {
+float: right;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.size-table {
+   display: flex;
+   flex-direction: row;
+}
+
+.size-table table {
+   flex: 1;
+   border-collapse: collapse;
+}
+
+.size-table table tr {
+  border-bottom: 0.5px solid #868686;
+}
+
+.size-table table td {
+   text-align: left;
+   padding: 1rem 0;
+   width: 1%;
+   vertical-align: top;
+}
+
+.size-table table thead th {
+   text-align: left;
+   padding-bottom: 2rem;
+   text-transform: uppercase;
+   font-size: 80%;
+}
+
+.size-guide-link{
+   cursor: pointer;
+   border-bottom: 1px dotted;
+}
+
+@media screen and (min-width: 960px){
+   .modal-overlay{
+      font-size: 1.6rem;
+   }
+   .modal-content {
+      max-width: 66vw;
+      padding: 5rem;
+   }
+}

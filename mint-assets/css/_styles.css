@@ -1,0 +1,34 @@
+@import 'reset.css';
+@import 'fonts.css';
+@import 'globals.css';
+@import 'keyframes.css';
+@import 'grid.css';
+@import 'modal.css';
+@import 'main.css';
+
+:root {
+   --black: #000;
+   --white: #fff;
+   --blue: #1817dd;
+   --gray: #333;
+   --lightgray: #999;
+   --solar: #d7fd00;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+   -webkit-text-size-adjust: 100%;
+   font-variant-ligatures: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+   background-color: transparent;
+   text-shadow: none;
+   color: var(--solar);
+}

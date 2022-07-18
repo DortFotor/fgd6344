@@ -1,0 +1,17 @@
+@font-face {
+   font-family: 'AdihausDIN';
+   src: url('../fonts/AdihausDIN-Regular.woff2') format('woff2'),
+	  url('../fonts/AdihausDIN-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'AdihausDIN';
+   src: url('../fonts/AdihausDIN-Medium.woff2') format('woff2'),
+	  url('../fonts/AdihausDIN-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
